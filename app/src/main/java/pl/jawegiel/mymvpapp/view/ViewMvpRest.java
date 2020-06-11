@@ -1,6 +1,8 @@
-package pl.jawegiel.mymvpapp;
+package pl.jawegiel.mymvpapp.view;
 
 import java.util.List;
+
+import pl.jawegiel.mymvpapp.model.RestDataModel;
 
 public interface ViewMvpRest {
     void configureProgressDialog();

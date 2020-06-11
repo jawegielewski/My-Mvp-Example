@@ -1,4 +1,7 @@
-package pl.jawegiel.mymvpapp;
+package pl.jawegiel.mymvpapp.presenter;
+
+import pl.jawegiel.mymvpapp.model.User;
+import pl.jawegiel.mymvpapp.view.ViewMvpSimpleTextView;
 
 public class SimpleTextViewPresenter {
     private ViewMvpSimpleTextView viewMvpSimpleTextView;

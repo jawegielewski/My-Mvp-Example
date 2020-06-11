@@ -1,4 +1,7 @@
-package pl.jawegiel.mymvpapp;
+package pl.jawegiel.mymvpapp.presenter;
+
+import pl.jawegiel.mymvpapp.model.RestData;
+import pl.jawegiel.mymvpapp.view.ViewMvpRest;
 
 public class RestPresenter {
     private RestData restData;

@@ -1,8 +1,10 @@
-package pl.jawegiel.mymvpapp;
+package pl.jawegiel.mymvpapp.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import pl.jawegiel.mymvpapp.Api;
+import pl.jawegiel.mymvpapp.view.ViewMvpRest;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;

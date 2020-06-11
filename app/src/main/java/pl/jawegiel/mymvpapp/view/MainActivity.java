@@ -1,4 +1,4 @@
-package pl.jawegiel.mymvpapp;
+package pl.jawegiel.mymvpapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -13,6 +13,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
+
+import pl.jawegiel.mymvpapp.R;
+import pl.jawegiel.mymvpapp.presenter.RestPresenter;
+import pl.jawegiel.mymvpapp.presenter.SimpleTextViewPresenter;
+import pl.jawegiel.mymvpapp.UsersAdapter;
+import pl.jawegiel.mymvpapp.model.RestDataModel;
 
 public class MainActivity extends AppCompatActivity implements ViewMvpSimpleTextView, ViewMvpRest {
 

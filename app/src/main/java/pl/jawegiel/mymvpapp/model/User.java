@@ -1,4 +1,4 @@
-package pl.jawegiel.mymvpapp;
+package pl.jawegiel.mymvpapp.model;
 
 public class User {
 

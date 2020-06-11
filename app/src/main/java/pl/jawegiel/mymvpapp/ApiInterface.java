@@ -2,6 +2,7 @@ package pl.jawegiel.mymvpapp;
 
 import java.util.List;
 
+import pl.jawegiel.mymvpapp.model.RestDataModel;
 import retrofit.Callback;
 import retrofit.http.GET;
 
